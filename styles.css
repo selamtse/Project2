@@ -1,0 +1,171 @@
+/* Master style */
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 15px;
+  padding-left: 60px;
+  text-align: center;
+  background: black;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FFD700;
+}
+.logo img{
+
+  margin: -30px;
+  margin-right: 200px;
+  float: left;
+  height: 100px;
+
+
+}
+
+
+
+.content-img-background {
+    height: 812px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.mainBox {
+  float:left;
+  max-width: 30%;
+}
+.mainBox2 {
+  float:right;
+  max-width: 30%;
+}
+#basics-box-container {
+  width: 100%;
+    margin-top:90px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+basics-box-container a {
+      vertical-align: top;
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+	padding-right: 14px;
+	padding-left: 14px;
+
+}
+#basics-btnContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: -25px;
+  z-index: 1000;
+  position: relative;
+}
+.basics-box {
+  display: inline-block;
+  text-align: center;
+  padding: 9px;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  font-family: "open sans", "sans-serif";
+  font-size: 16px;
+  width: 300px;
+  border: 5px solid #ffe680;
+  border-radius: 7px;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.basics-box1 {
+  display: inline-block;
+  text-align: center;
+  padding: 9px;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  font-family: "open sans", "sans-serif";
+  font-size: 16px;
+  width: 290px;
+  border: 5px solid #ffe680;
+  border-radius: 7px;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.basics-title {
+  font-family:"open sans","sans serif";
+  font-size: 14pt;
+  font-weight: bold;
+  color: white;
+}
+.basics-text {
+  font-family:"open sans","sans serif";
+  font-size: 15pt;
+  color: white;
+}
+.basics-line {
+  width: 75px;
+  height: 3px;
+  background: #ffe680;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.basics-readmore {
+  width: 145px;
+  height: 35px;
+  background: #ffe680;
+  text-align: center;
+  display: inline-block;
+  font-family: "open sans";
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  z-index: 1000;
+  position: relative;
+}
+.basics-readmore:hover {
+  border: 1px solid white;
+}
